@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo 'Checking out code from GitHub Deepak sonawane .....'
+                echo 'Checking out code from GitHub Deepak .....'
                 checkout scm
             }
         }
